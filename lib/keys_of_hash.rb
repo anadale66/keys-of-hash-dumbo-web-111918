@@ -2,7 +2,7 @@ class Hash
   def keys_of(*args) 
   
     map do |key,value|
-      if value
+      if args.include? value
         key
       else 
         nil 
