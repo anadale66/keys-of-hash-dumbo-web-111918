@@ -1,5 +1,5 @@
 class Hash
-  def keys_of('Australia', 'Panama') 
+  def keys_of(*args) 
   
     map { |key,value|
      
