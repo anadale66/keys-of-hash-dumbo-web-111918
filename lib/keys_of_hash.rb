@@ -7,7 +7,6 @@ class Hash
       else 
         return nil 
       end
-    }
-  new_array.compact 
+    }.compact 
   end
 end
