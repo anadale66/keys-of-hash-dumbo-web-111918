@@ -1,12 +1,12 @@
 class Hash
   def keys_of(*args) 
   
-    map { |key,value|
+    map do |key,value|
       if value
-        return key
+        key
       else 
-        return nil 
+        nil 
       end
-    }.compact 
+    end.compact 
   end
 end
