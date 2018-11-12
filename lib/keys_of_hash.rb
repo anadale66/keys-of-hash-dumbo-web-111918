@@ -1,5 +1,5 @@
 class Hash
-  def keys_of(*arrgs) 
+  def keys_of('Australia', 'Panama') 
     new_array = []
     arrgs.map do |key,value|
       if value
