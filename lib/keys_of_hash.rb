@@ -1,7 +1,7 @@
 class Hash
   def keys_of('Australia', 'Panama') 
     new_array = []
-    arrgs.map do |key,value|
+    map do |key,value|
       if value
         new_array << key
       else 
