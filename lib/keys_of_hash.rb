@@ -1,11 +1,11 @@
 class Hash
   def keys_of('Australia', 'Panama') 
-    new_array = []
+  
     map { |key,value|
       if value
         new_array << key
       else 
-        return "wat" 
+        return nil 
       end
     }
   new_array.compact 
