@@ -3,7 +3,7 @@ class Hash
   
     map { |key,value|
       if value
-         key
+        return key
       else 
         return nil 
       end
